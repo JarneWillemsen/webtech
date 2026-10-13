@@ -1,0 +1,84 @@
+/* stijl.css - labo 3, landing (reset.css is linked before this file) */
+
+/* === tokens === */
+:root {
+--banner: #c8b8ff;
+--link: #5551ff;
+--hero:#779cee;
+--Nav: #333333;
+
+font-family: arial;
+}
+
+/* === your rules === */
+* {
+  box-sizing: border-box;
+}
+body{
+
+height: 90vh ; 
+}
+
+.banner { background-color: var(--banner);
+text-align: center; 
+font-size: 0.2rem;
+padding: 14px 20px;
+
+
+}
+.banner p{margin: 0rem;
+font-size: 0.75rem;}
+.banner a {color: var(--link) ;}
+.banner a:hover, 
+.banner a:focus{color: white;}
+
+
+li{list-style: none;
+display: inline-block;
+margin-left:1rem;
+}
+
+li a {text-decoration: none;
+color: black;}
+
+Ul {text-align: right;
+    margin-right: 2rem;
+}
+
+
+main {
+    background-color: var(--hero);
+    columns: 2;
+}
+
+
+.bovenkop {margin: 2rem;
+font-size: 2rem;}
+
+h1 {margin: 1rem;
+margin-left: 2rem;
+margin-right: 4rem;
+font-size: 5rem;
+margin-bottom: 2rem;}
+
+p {margin-left: 2rem;
+    margin-bottom: 3rem;
+    margin-right: 4rem;
+    font-size: 2rem;
+}
+
+article a {margin: 2rem;
+margin-top: 4rem;
+padding-top: 1rem;
+padding-bottom: 1rem;
+padding-left: 2rem;
+padding-right: 2rem;
+background-color: black;
+color: white;
+text-decoration: none;
+border-radius: 0.5rem;
+font-size: 1rem;}
+
+article a:hover,
+article a:focus {background-color: var(--link);
+color:white;}
