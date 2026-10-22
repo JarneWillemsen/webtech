@@ -6,8 +6,7 @@
 }
 
 /* === your rules === */
-main {height: 100vh;
-padding: 2vh;}
+
 
 .a {background-color: #e9493f;}
 .b {background-color: #edd24a;}
@@ -18,5 +17,9 @@ padding: 2vh;}
 .g {background-color: #ebc47a;}
 .h {background-color: #e8882c;}
 
-.vlak {display: grid;
-grid-template-columns: ;}
+main{
+    height: 100vh;
+    display: grid;
+    padding: 2rem;
+    gap: 1rem;
+}
