@@ -6,20 +6,26 @@
 }
 
 /* === your rules === */
+.vlak {display: flex;
+justify-content: end;
+color: white;
+padding: 0.2rem;}
 
-
-.a {background-color: #e9493f;}
-.b {background-color: #edd24a;}
+.a {background-color: #e9493f;;}
+.b {background-color: #edd24a;
+grid-column: 4/5;}
 .c {background-color: #072f55;}
 .d {background-color: #52a51a;}
 .e {background-color: #efaad9;}
 .f {background-color: #a5f129;}
 .g {background-color: #ebc47a;}
-.h {background-color: #e8882c;}
+.h {background-color: #e8882c;
+    grid-column: 4/5;}
 
 main{
     height: 100vh;
     display: grid;
     padding: 2rem;
     gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }

@@ -6,3 +6,36 @@
 }
 
 /* === your rules === */
+body {background-color: black;
+color: white;
+text-align: center;}
+.lijst {height: 70vh;
+width: 70vh;
+margin: 15vh auto;
+position: relative;}
+
+.lijst img {aspect-ratio: 1/1;}
+
+.vlakje {width: 6rem;
+height: 6rem;
+background-color: red;}
+
+.roze {background-color: pink;
+position: absolute; 
+left: 4rem;
+top: 4rem;
+z-index: 67;}
+.lime {background-color: lime;
+position: absolute; 
+left: 1rem;
+top: 1rem;}
+.rood {background-color: red;
+    position: absolute; 
+    right: 1rem;
+    bottom: 1rem;
+}
+.groen {background-color: green; 
+    position: absolute; 
+    right: 4rem;
+    bottom: 4rem;
+z-index: 5;}

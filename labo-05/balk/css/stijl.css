@@ -1,0 +1,43 @@
+/* stijl.css - labo 5, balk (reset.css is linked before this file) */
+
+/* === tokens === */
+:root {
+}
+
+/* === your rules === */
+header {
+  background-color: black;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+.logo {
+  justify-content: left;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  margin-left: 75vw;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  margin-top: 56vh;
+}
